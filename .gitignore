@@ -1,0 +1,6 @@
+libuv.vcxproj
+*.filters
+*.user
+/Debug
+/.vs
+*.sln
