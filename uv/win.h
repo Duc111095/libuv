@@ -257,7 +257,7 @@ typedef struct {
 #define UV_LOOP_PRIVATE_FIELDS	\
 	/* The loop's I/O completion port */	\
 	HANDLE iocp;	\
-	/* The current time according to the event loop. in msecs. */	\	
+	/* The current time according to the event loop. in msecs. */	\
 	uint64_t time;	\
 	uv_req_t* pending_reqs_tail;	\
 	uv_handle_t* endgame_handles;	\
