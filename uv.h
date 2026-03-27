@@ -32,10 +32,10 @@ extern "C" {
 #include <stdint.h>
 #include <math.h>
 
-	struct uv__queue {
-		struct uv__queue* next;
-		struct uv__queue* prev;
-	};
+struct uv__queue {
+	struct uv__queue* next;
+	struct uv__queue* prev;
+};
 
 #if defined(_WIN32)
 # include "uv/win.h"
